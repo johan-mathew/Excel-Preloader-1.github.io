@@ -8,9 +8,59 @@ body{
     margin-top: 200px;
 }
 .abstractAnimation{
-    animation-name: bganime;
+    animation: bganime 30s linear infinite ;
+    animation-delay: 0.5s;
+  
+}
+.introAnimation{
+    transform: translate(-25300px,1300px);
+    animation: introanime 0.5s;
+}
+@keyframes introanime{
+    to{
+        transform: translate(-16500px,-4000px);
+    }
 }
 
 @keyframes bganime{
-    
+    2%{
+        transform: translate(-16300px,-3800px);
+    }
+    16%{
+        transform: translate(-17000px,-5000px);
+    }
+    18%{
+        transform: translate(-11200px,-7300px);
+    }
+    32%{
+        transform: translate(-10000px,-5000px);
+    }
+    34%{
+        transform: translate(-1300px,-7300px);
+    }
+    48%{
+        transform: translate(-1300px,-4000px);
+    }
+    50%{
+        transform: translate(-1300px,-13000px);
+    }
+    64%{
+        transform: translate(-3000px,-15000px);
+    }
+    66%{
+        transform: translate(-8700px,-13000px);
+    }
+    80%{
+        transform: translate(-8700px,-16000px);
+    }
+    82%{
+        transform: translate(-16300px,-16500px);
+    }
+    96%{
+        transform: translate(-17500px,-15000px);
+    }
+    100%{
+        transform: translate(-16300px,-3800px);
+    }
+  
 }
