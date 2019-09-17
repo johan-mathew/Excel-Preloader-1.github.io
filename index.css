@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.container-svg{
+    height: 270px;
+    width:200px;
+    margin: auto;
+    margin-top: 200px;
+}
+.abstractAnimation{
+    animation-name: bganime;
+}
+
+@keyframes bganime{
+    
+}
