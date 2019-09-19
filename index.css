@@ -11,7 +11,8 @@ body{
     animation: bganime 30s linear infinite ;
     animation-delay: 0.5s;
     transform: translate(-25000px,1300px);
-    fliter:hue-rotate(60deg);
+    filter:hue-rotate(60deg);
+    -webkit-filter:hue-rotate(60deg);
 }
 @keyframes bganime{
     0%{
