@@ -11,7 +11,7 @@ body{
     animation: bganime 30s linear infinite ;
     animation-delay: 0.5s;
     transform: translate(-25000px,1300px);
-    will-change: transform;
+  
 }
 @keyframes bganime{
     0%{
